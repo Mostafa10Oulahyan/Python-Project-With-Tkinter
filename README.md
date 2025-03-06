@@ -1,2 +1,2 @@
 # My_Project
-thidsi is  my begiining
+This is  My Beginning in GitHub
