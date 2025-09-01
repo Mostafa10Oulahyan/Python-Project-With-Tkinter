@@ -263,7 +263,7 @@ f=Tk()
 f.geometry("888x555")
 f.title("Bibliothéque")
 # --------------------image background---------------------
-imagebib="WhatsApp Image 2025-01-30 at 23.16.38_5f487c33.jpg"
+imagebib = r"C:\Users\mosta\OneDrive\Desktop\Elzero Web\Git\Python_Project\Pro-Py\assets\WhatsApp Image 2025-01-30 at 23.16.38_5f487c33.jpg"
 image=Image.open(imagebib)
 img=image.resize((1400,700))
 picture=ImageTk.PhotoImage(img)
@@ -276,7 +276,7 @@ titre=Label(f,text="📚 Gestion de Bibliothéque",font=("Arial",23,"bold"), bg=
 titre.pack(pady=20)
 
 #---------------------------Logo----------------------------------------------
-logo = ImageTk.PhotoImage(Image.open("WhatsApp Image 2025-02-01 at 18.48.42_223ecf74.jpg").resize((150, 100)))
+logo = ImageTk.PhotoImage(Image.open(r"C:\Users\mosta\OneDrive\Desktop\Elzero Web\Git\Python_Project\Pro-Py\assets\WhatsApp Image 2025-02-01 at 18.48.42_223ecf74.jpg").resize((150, 100)))
 logo1 = Label(f, image=logo, borderwidth=0)
 logo1.place(x=0, y=10) 
 

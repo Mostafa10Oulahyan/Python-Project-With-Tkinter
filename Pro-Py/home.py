@@ -46,7 +46,7 @@ root.resizable(0, 0)
 root.title("Login Page")
 set_appearance_mode("dark")  
 
-image = CTkImage(Image.open("image.jpg"), size=(940, 500))
+image = CTkImage(Image.open(r"Pro-Py/assets/image.jpg"), size=(940, 500))
 image_label = CTkLabel(root, image=image, text="")
 image_label.place(x=0, y=0)
 
